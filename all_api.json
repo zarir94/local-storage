@@ -2,9 +2,82 @@
     {
         "url":"https://floralimited.com/account/checkuser",
         "method":"post",
-        "data":"Username=%2B88MOBILE_NO",
+        "data":"Username=%2B880{MOBILE_NO}",
         "headers":{
             "Content-Type":"application/x-www-form-urlencoded"
-        }
-    }
+        },
+        "identifier":"IsActive"
+    },
+    {
+        "url":"https://api.nittabazar.com/api/sendOtp",
+        "method":"post",
+        "data":"{\"customers_telephone\": \"0{MOBILE_NO}\"}",
+        "headers":{
+            "Content-Type":"application/json"
+        },
+        "identifier":"\"success\": \"1\""
+    },
+    {
+        "url":"",
+        "method":"",
+        "data":"",
+        "headers":{},
+        "identifier":""
+    },
+    {
+        "url":"",
+        "method":"",
+        "data":"",
+        "headers":{},
+        "identifier":""
+    },
+    {
+        "url":"",
+        "method":"",
+        "data":"",
+        "headers":{},
+        "identifier":""
+    },
+    {
+        "url":"",
+        "method":"",
+        "data":"",
+        "headers":{},
+        "identifier":""
+    },
+    {
+        "url":"",
+        "method":"",
+        "data":"",
+        "headers":{},
+        "identifier":""
+    },
+    {
+        "url":"",
+        "method":"",
+        "data":"",
+        "headers":{},
+        "identifier":""
+    },
+    {
+        "url":"",
+        "method":"",
+        "data":"",
+        "headers":{},
+        "identifier":""
+    },
+    {
+        "url":"",
+        "method":"",
+        "data":"",
+        "headers":{},
+        "identifier":""
+    },
+    {
+        "url":"",
+        "method":"",
+        "data":"",
+        "headers":{},
+        "identifier":""
+    },
 ]
