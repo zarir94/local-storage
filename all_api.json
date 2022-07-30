@@ -18,20 +18,11 @@
         "identifier":"\"success\": \"1\""
     },
     {
-        "url":"https://api.nittabazar.com/processForgotPassword",
-        "method":"post",
-        "data":"{\"customers_telephone\": \"0{MOBILE_NO}\"}",
-        "headers":{
-            "Content-Type":"application/json"
-        },
-        "identifier":"\"success\": \"1\""
-    },
-    {
-        "url":"",
-        "method":"",
+        "url":"https://www.poshorabd.com/send-otp-for-new-user?phone_num=0{MOBILE_NO}",
+        "method":"get",
         "data":"",
         "headers":{},
-        "identifier":""
+        "identifier":"\"flag\":\"send\""
     },
     {
         "url":"",
