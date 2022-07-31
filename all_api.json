@@ -32,8 +32,108 @@
     "url": "https://api.fashionfield.com.bd/api/customer/login",
     "method": "post",
     "data": "{\"phone\":\"0{MOBILE_NO}\"}",
-    "headers": {"Content-Type":"application/json"},
+    "headers": {
+        "Content-Type": "application/json"
+    },
     "identifier": "\"message\": \"success\""
+}, {
+    "url": "https://shijang.com/c-sign-up",
+    "method": "post",
+    "data": "c_name=rfgwrhg&c_contact_number=0{MOBILE_NO}",
+    "headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "identifier": "\"type\":\"alert-success\""
+}, {
+    "url": "https://admin.beautybooth.com.bd/api/v2/auth/signup",
+    "method": "post",
+    "data": "{\"phone\":\"0{MOBILE_NO}\"}",
+    "headers": {"Content-Type":"application/json"},
+    "identifier": "Please verify"
+}, {
+    "url": "https://api.bdtickets.com:20100/v1/auth",
+    "method": "post",
+    "data": "{\"phoneNumber\":\"+880{MOBILE_NO}\",\"applicationChannel\":\"WEB_APP\"}",
+    "headers": {"Content-Type":"application/json"},
+    "identifier": "OTP_GENERATED"
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
 }, {
     "url": "",
     "method": "",
