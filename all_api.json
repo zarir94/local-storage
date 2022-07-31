@@ -1,83 +1,73 @@
-[
-    {
-        "url":"https://floralimited.com/account/checkuser",
-        "method":"post",
-        "data":"Username=%2B880{MOBILE_NO}",
-        "headers":{
-            "Content-Type":"application/x-www-form-urlencoded"
-        },
-        "identifier":"IsActive"
+[{
+    "url": "https://floralimited.com/account/checkuser",
+    "method": "post",
+    "data": "Username=%2B880{MOBILE_NO}",
+    "headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
     },
-    {
-        "url":"https://api.nittabazar.com/api/sendOtp",
-        "method":"post",
-        "data":"{\"customers_telephone\": \"0{MOBILE_NO}\"}",
-        "headers":{
-            "Content-Type":"application/json"
-        },
-        "identifier":"\"success\": \"1\""
+    "identifier": "IsActive"
+}, {
+    "url": "https://api.nittabazar.com/api/sendOtp",
+    "method": "post",
+    "data": "{\"customers_telephone\": \"0{MOBILE_NO}\"}",
+    "headers": {
+        "Content-Type": "application/json"
     },
-    {
-        "url":"https://www.poshorabd.com/send-otp-for-new-user?phone_num=0{MOBILE_NO}",
-        "method":"get",
-        "data":"",
-        "headers":{},
-        "identifier":"\"flag\":\"send\""
+    "identifier": "\"success\": \"1\""
+}, {
+    "url": "https://www.poshorabd.com/send-otp-for-new-user?phone_num=0{MOBILE_NO}",
+    "method": "get",
+    "data": "",
+    "headers": {},
+    "identifier": "\"flag\":\"send\""
+}, {
+    "url": "https://api.ostad.app/api/v2/user/",
+    "method": "post",
+    "data": "{\"phone\":\"880{MOBILE_NO}\"}",
+    "headers": {
+        "Content-Type": "application/json"
     },
-    {
-        "url":"",
-        "method":"",
-        "data":"",
-        "headers":{},
-        "identifier":""
-    },
-    {
-        "url":"",
-        "method":"",
-        "data":"",
-        "headers":{},
-        "identifier":""
-    },
-    {
-        "url":"",
-        "method":"",
-        "data":"",
-        "headers":{},
-        "identifier":""
-    },
-    {
-        "url":"",
-        "method":"",
-        "data":"",
-        "headers":{},
-        "identifier":""
-    },
-    {
-        "url":"",
-        "method":"",
-        "data":"",
-        "headers":{},
-        "identifier":""
-    },
-    {
-        "url":"",
-        "method":"",
-        "data":"",
-        "headers":{},
-        "identifier":""
-    },
-    {
-        "url":"",
-        "method":"",
-        "data":"",
-        "headers":{},
-        "identifier":""
-    },
-    {
-        "url":"",
-        "method":"",
-        "data":"",
-        "headers":{},
-        "identifier":""
-    },
-]
+    "identifier": "\"status\": \"success\""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, ]
