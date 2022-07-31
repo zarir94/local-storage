@@ -29,11 +29,11 @@
     },
     "identifier": "\"status\": \"success\""
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://api.fashionfield.com.bd/api/customer/login",
+    "method": "post",
+    "data": "{\"phone\":\"0{MOBILE_NO}\"}",
+    "headers": {"Content-Type":"application/json"},
+    "identifier": "\"message\": \"success\""
 }, {
     "url": "",
     "method": "",
