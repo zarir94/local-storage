@@ -76,11 +76,11 @@
     "headers": {"Content-Type":"application/json"},
     "identifier": "\"status\": true"
 }, {
-    "url": "",
-    "method": "",
+    "url": "https://stage.bioscopelive.com/en/login/send-otp?phone=880{MOBILE_NO}&operator=bd-otp",
+    "method": "get",
     "data": "",
     "headers": {},
-    "identifier": ""
+    "identifier": "SUCCESS"
 }, {
     "url": "",
     "method": "",
