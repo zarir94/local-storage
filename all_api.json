@@ -100,11 +100,11 @@
     "headers": {"Device-Type":"web"," Content-Type":"application/json"},
     "identifier": ""
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://www.chinaexpress.com.bd/admin/api/v1/check-exists-customer",
+    "method": "post",
+    "data": "{\"phone\":\"+880{MOBILE_NO}\"}",
+    "headers": {" Content-Type":"application/json"},
+    "identifier": "OTP send to your phone"
 }, {
     "url": "",
     "method": "",
