@@ -90,14 +90,14 @@
 }, {
     "url": "https://healthway.com.bd/account/api/send/otp/",
     "method": "post",
-    "data": "{\"username\":\"01913436288\"}",
+    "data": "{\"username\":\"0{MOBILE_NO}\"}",
     "headers": {" Content-Type":"application/json"},
     "identifier": "status_code:200"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
+    "url": "https://web-api.binge.buzz/api/v3/otp/send/login",
+    "method": "post",
+    "data": "{\"phone\":\"+880{MOBILE_NO}\"}",
+    "headers": {"Device-Type":"web"," Content-Type":"application/json"},
     "identifier": ""
 }, {
     "url": "",
