@@ -82,11 +82,11 @@
     "headers": {},
     "identifier": "SUCCESS"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://api.bacbontutors.com/V2/student/pre-register",
+    "method": "post",
+    "data": "{\"name\":\"Jdjdbdb\",\"mobile_no\":\"0{MOBILE_NO}\",\"email\":\"ndndbfbdb@gmail.com\",\"referred_code\":null,\"app_signature\":\"BacBon Tutors\"}",
+    "headers": {"Content-Type":" application/json"},
+    "identifier": "OTP has been sent"
 }, {
     "url": "",
     "method": "",
