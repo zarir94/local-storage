@@ -88,11 +88,11 @@
     "headers": {"Content-Type":" application/json"},
     "identifier": "OTP has been sent"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://healthway.com.bd/account/api/send/otp/",
+    "method": "post",
+    "data": "{\"username\":\"01913436288\"}",
+    "headers": {" Content-Type":"application/json"},
+    "identifier": "status_code:200"
 }, {
     "url": "",
     "method": "",
