@@ -48,26 +48,33 @@
     "url": "https://admin.beautybooth.com.bd/api/v2/auth/signup",
     "method": "post",
     "data": "{\"phone\":\"0{MOBILE_NO}\"}",
-    "headers": {"Content-Type":"application/json"},
+    "headers": {
+        "Content-Type": "application/json"
+    },
     "identifier": "Please verify"
 }, {
     "url": "https://api.bdtickets.com:20100/v1/auth",
     "method": "post",
     "data": "{\"phoneNumber\":\"+880{MOBILE_NO}\",\"applicationChannel\":\"WEB_APP\"}",
-    "headers": {"Content-Type":"application/json"},
+    "headers": {
+        "Content-Type": "application/json"
+    },
     "identifier": "OTP_GENERATED"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://prod-api.viewlift.com/identity/signup?site=hoichoitv",
+    "method": "post",
+    "data": "{\"requestType\":\"send\",\"phoneNumber\":\"+880{MOBILE_NO}\"}",
+    "headers": {
+        "Content-Type": "application/json",
+        "x-api-key": "PBSooUe91s7RNRKnXTmQG7z3gwD2aDTA6TlJp6ef"
+    },
+    "identifier": "\"sent\": \"true\""
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://api.miah.shop/api/otp",
+    "method": "post",
+    "data": "{\"phone\":\"0{MOBILE_NO}\",\"email\":\"tywuqbcuv\"}",
+    "headers": {"Content-Type":"application/json"},
+    "identifier": "\"status\": true"
 }, {
     "url": "",
     "method": "",
