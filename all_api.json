@@ -142,11 +142,11 @@
         "identifier": "OTP_SENT_SUCCESS"
     }
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://api.osudpotro.com/api/v1/users/send_otp",
+    "method": "post",
+    "data": "{\"mobile\":\"+88-0{MOBILE_NO}\", \"deviceToken\":\"app\", \"os\":\"app\"}",
+    "headers": {"Content-Type":"application/json"},
+    "identifier": "OTP has been sent"
 }, {
     "url": "",
     "method": "",
