@@ -160,11 +160,11 @@
     "headers": {"Content-Type":"application/json", "x-authorization":"QoFN68MGTcosJxSmDf5GCgxXlNcgE1mUH9MUWuDHgs7dugjR7P2ziASzpo3frHL3"},
     "identifier": "\"success\": true"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://api.eat-z.com/auth/customer/signin",
+    "method": "post",
+    "data": "{\"username\":\"+880{MOBILE_NO}\"}",
+    "headers": {"Content-Type":"application/json"},
+    "identifier": "session"
 }, {
     "url": "",
     "method": "",
