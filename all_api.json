@@ -148,11 +148,11 @@
     "headers": {"Content-Type":"application/json"},
     "identifier": "OTP has been sent"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://api.munchies.com.bd/parse/functions/generateOtp",
+    "method": "post",
+    "data": "{\"phone\":\"0{MOBILE_NO}\"}",
+    "headers": {"Content-Type":"application/json", "x-parse-application-id": "food"},
+    "identifier": "Success"
 }, {
     "url": "",
     "method": "",
