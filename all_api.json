@@ -106,11 +106,11 @@
     "headers": {" Content-Type":"application/json"},
     "identifier": "OTP send to your phone"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://api.bongo-solutions.com/auth/api/login/send-otp",
+    "method": "post",
+    "data": "{\"operator\":\"all\",\"msisdn\":\"880{MOBILE_NO}\"}",
+    "headers": {"Content-Type":"application/json"},
+    "identifier": "success"
 }, {
     "url": "",
     "method": "",
