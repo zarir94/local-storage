@@ -73,7 +73,9 @@
     "url": "https://api.miah.shop/api/otp",
     "method": "post",
     "data": "{\"phone\":\"0{MOBILE_NO}\",\"email\":\"tywuqbcuv\"}",
-    "headers": {"Content-Type":"application/json"},
+    "headers": {
+        "Content-Type": "application/json"
+    },
     "identifier": "\"status\": true"
 }, {
     "url": "https://stage.bioscopelive.com/en/login/send-otp?phone=880{MOBILE_NO}&operator=bd-otp",
@@ -85,38 +87,60 @@
     "url": "https://api.bacbontutors.com/V2/student/pre-register",
     "method": "post",
     "data": "{\"name\":\"Jdjdbdb\",\"mobile_no\":\"0{MOBILE_NO}\",\"email\":\"ndndbfbdb@gmail.com\",\"referred_code\":null,\"app_signature\":\"BacBon Tutors\"}",
-    "headers": {"Content-Type":" application/json"},
+    "headers": {
+        "Content-Type": " application/json"
+    },
     "identifier": "OTP has been sent"
 }, {
     "url": "https://healthway.com.bd/account/api/send/otp/",
     "method": "post",
     "data": "{\"username\":\"0{MOBILE_NO}\"}",
-    "headers": {" Content-Type":"application/json"},
+    "headers": {
+        " Content-Type": "application/json"
+    },
     "identifier": "status_code:200"
 }, {
     "url": "https://web-api.binge.buzz/api/v3/otp/send/login",
     "method": "post",
     "data": "{\"phone\":\"+880{MOBILE_NO}\"}",
-    "headers": {"Device-Type":"web"," Content-Type":"application/json"},
+    "headers": {
+        "Device-Type": "web",
+        " Content-Type": "application/json"
+    },
     "identifier": ""
 }, {
     "url": "https://www.chinaexpress.com.bd/admin/api/v1/check-exists-customer",
     "method": "post",
     "data": "{\"phone\":\"+880{MOBILE_NO}\"}",
-    "headers": {" Content-Type":"application/json"},
+    "headers": {
+        " Content-Type": "application/json"
+    },
     "identifier": "OTP send to your phone"
 }, {
     "url": "https://api.bongo-solutions.com/auth/api/login/send-otp",
     "method": "post",
     "data": "{\"operator\":\"all\",\"msisdn\":\"880{MOBILE_NO}\"}",
-    "headers": {"Content-Type":"application/json"},
+    "headers": {
+        "Content-Type": "application/json"
+    },
     "identifier": "success"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://fundesh.com.bd/api/auth/resendOTP",
+    "method": "post",
+    "data": "{\"msisdn\":\"{MOBILE_NO}\"}",
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "identifier": "OTP_RESEND_SUCCESS",
+    "preback": {
+        "url": "https://fundesh.com.bd/api/auth/generateOTP?service_key=",
+        "method": "post",
+        "data": "{\"msisdn\":\"{MOBILE_NO}\"}",
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "identifier": "OTP_SENT_SUCCESS"
+    }
 }, {
     "url": "",
     "method": "",
