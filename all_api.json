@@ -154,11 +154,11 @@
     "headers": {"Content-Type":"application/json", "x-parse-application-id": "food"},
     "identifier": "Success"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://prodapi.swap.com.bd/api/v1/send-otp/login",
+    "method": "post",
+    "data": "{\"mobile_number\":\"0{MOBILE_NO}\"}",
+    "headers": {"Content-Type":"application/json", "x-authorization":"QoFN68MGTcosJxSmDf5GCgxXlNcgE1mUH9MUWuDHgs7dugjR7P2ziASzpo3frHL3"},
+    "identifier": "\"success\": true"
 }, {
     "url": "",
     "method": "",
