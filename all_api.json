@@ -178,11 +178,11 @@
     "headers": {"Content-Type": "application/x-www-form-urlencoded", "Cookie": "csrf_token=088e86e9d74c169ede12e8fcc525e3f1; ci_session=mun71kcgi9s9j2p881a3gibcnmj93gt1; language=english"},
     "identifier": ""
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://api.arogga.com/v1/auth/sms/send",
+    "method": "post",
+    "data": "mobile=%2B880{MOBILE_NO}",
+    "headers": {"Content-Type": "application/x-www-form-urlencoded", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0"},
+    "identifier": "SMS sent"
 }, {
     "url": "",
     "method": "",
