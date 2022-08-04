@@ -172,10 +172,10 @@
     "headers": {"Content-Type":"application/x-www-form-urlencoded"},
     "identifier": "We have sent"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
+    "url": "https://pulseservicesbd.com/authentication/mobile_verification_otp/1",
+    "method": "post",
+    "data": "csrf_token=088e86e9d74c169ede12e8fcc525e3f1&user_mobile={MOBILE_NO}&user_country=1",
+    "headers": {"Content-Type": "application/x-www-form-urlencoded", "Cookie": "csrf_token=088e86e9d74c169ede12e8fcc525e3f1; ci_session=mun71kcgi9s9j2p881a3gibcnmj93gt1; language=english"},
     "identifier": ""
 }, {
     "url": "",
