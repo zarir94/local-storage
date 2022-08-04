@@ -166,11 +166,11 @@
     "headers": {"Content-Type":"application/json"},
     "identifier": "session"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://sonamoni.com/index.php?route=extension%2Fmodule%2Fxsmsprohelper%2Fcommonlogin%2Fexists",
+    "method": "post",
+    "data": "xsmspro_page=cleanlogin&telephone=0{MOBILE_NO}",
+    "headers": {"Content-Type":"application/x-www-form-urlencoded"},
+    "identifier": "We have sent"
 }, {
     "url": "",
     "method": "",
