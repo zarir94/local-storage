@@ -190,6 +190,108 @@
     "headers": {"Content-Type":" application/json"},
     "identifier": "Success"
 }, {
+    "url": "https://farmhouse.com.bd/wp-admin/admin-ajax.php",
+    "method": "post",
+    "data": "xoo-ml-reg-phone-cc=%2B88&xoo-ml-reg-phone=0{MOBILE_NO}&xoo-ml-form-token=7260&woocommerce-register-nonce=3daf325eb2&_wp_http_referer=%2Fmy-account%2F&action=xoo_ml_request_otp",
+    "headers": {"Content-Type":"application/x-www-form-urlencoded"},
+    "identifier": "OTP sent"
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
+    "url": "",
+    "method": "",
+    "data": "",
+    "headers": {},
+    "identifier": ""
+}, {
     "url": "",
     "method": "",
     "data": "",
