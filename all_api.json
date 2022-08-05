@@ -215,11 +215,11 @@
     "headers": {"Content-Type":"application/x-www-form-urlencoded"},
     "identifier": "OTP code send to your mobile"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://edge.ali2bd.com/api/consumer/v1/auth/login",
+    "method": "post",
+    "data": "{\"username\":\"+880{MOBILE_NO}\"}",
+    "headers": {"Content-Type":"application/json"},
+    "identifier": "success"
 }, {
     "url": "",
     "method": "",
