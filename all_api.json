@@ -209,11 +209,11 @@
         "identifier":"User registration successful"
     }
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://doctorola.com/login_sending_code",
+    "method": "post",
+    "data": "mobile=0{MOBILE_NO}",
+    "headers": {"Content-Type":"application/x-www-form-urlencoded"},
+    "identifier": "OTP code send to your mobile"
 }, {
     "url": "",
     "method": "",
