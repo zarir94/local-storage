@@ -34,7 +34,7 @@ Farmhouse Bangladesh
 Shopoth
 Doctor OLA
 !> Citimart
-Dhaka Bank EKYC
+!> Dhaka Bank EKYC
 Ali2BD
 Meena Click
 The Mall BD
