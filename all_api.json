@@ -88,7 +88,7 @@
     "method": "post",
     "data": "{\"name\":\"Jdjdbdb\",\"mobile_no\":\"0{MOBILE_NO}\",\"email\":\"ndndbfbdb@gmail.com\",\"referred_code\":null,\"app_signature\":\"BacBon Tutors\"}",
     "headers": {
-        "Content-Type": " application/json"
+        "Content-Type": "application/json"
     },
     "identifier": "OTP has been sent"
 }, {
@@ -96,7 +96,7 @@
     "method": "post",
     "data": "{\"username\":\"0{MOBILE_NO}\"}",
     "headers": {
-        " Content-Type": "application/json"
+        "Content-Type": "application/json"
     },
     "identifier": "status_code:200"
 }, {
@@ -105,7 +105,7 @@
     "data": "{\"phone\":\"+880{MOBILE_NO}\"}",
     "headers": {
         "Device-Type": "web",
-        " Content-Type": "application/json"
+        "Content-Type": "application/json"
     },
     "identifier": ""
 }, {
@@ -113,7 +113,7 @@
     "method": "post",
     "data": "{\"phone\":\"+880{MOBILE_NO}\"}",
     "headers": {
-        " Content-Type": "application/json"
+        "Content-Type": "application/json"
     },
     "identifier": "OTP send to your phone"
 }, {
@@ -226,88 +226,4 @@
     "data": "{\"cell_phone\":\"880{MOBILE_NO}\",\"type\":\"{RANDOM}\"}",
     "headers": {"Content-Type":"application/json", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0"},
     "identifier": "true"
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
-}, ]
+}]
