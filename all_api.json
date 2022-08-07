@@ -221,11 +221,11 @@
     "headers": {"Content-Type":"application/json"},
     "identifier": "success"
 }, {
-    "url": "",
-    "method": "",
-    "data": "",
-    "headers": {},
-    "identifier": ""
+    "url": "https://api.meenaclick.com/api/front/sms/send/pin",
+    "method": "post",
+    "data": "{\"cell_phone\":\"880{MOBILE_NO}\",\"type\":\"{RANDOM}\"}",
+    "headers": {"Content-Type":"application/json", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0"},
+    "identifier": "true"
 }, {
     "url": "",
     "method": "",
