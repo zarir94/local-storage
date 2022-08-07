@@ -37,6 +37,6 @@ Doctor OLA
 !> Dhaka Bank EKYC
 Ali2BD
 Meena Click
-The Mall BD
+!> The Mall BD
 Shikho
-Google
+!> Google
