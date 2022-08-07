@@ -198,7 +198,7 @@
 }, {
     "url": "https://api.shopoth.com/shop/api/v1/otps/send",
     "method": "post",
-    "data": "{\"phone\":\"01913436288\"}",
+    "data": "{\"phone\":\"0{MOBILE_NO}\"}",
     "headers": {"Content-Type":"application/json"},
     "identifier": "Successfully sent OTP",
     "preback":{
