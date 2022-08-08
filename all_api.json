@@ -73,7 +73,7 @@
     "url": "https://www.bioscopelive.com/en/login/send-otp?phone=880{MOBILE_NO}&operator=bd-otp",
     "method": "get",
     "data": "",
-    "headers": {},
+    "headers": {"User-Agent":"Mozilla/5.0 (Linux; Android 8.1.0; vivo 1811) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.48 Mobile Safari/537.36"},
     "identifier": "SUCCESS"
 }, {
     "url": "https://api.bacbontutors.com/V2/student/pre-register",
