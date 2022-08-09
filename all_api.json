@@ -53,15 +53,6 @@
     },
     "identifier": "Please verify"
 }, {
-    "url": "https://prod-api.viewlift.com/identity/signup?site=hoichoitv",
-    "method": "post",
-    "data": "{\"requestType\":\"send\",\"phoneNumber\":\"+880{MOBILE_NO}\"}",
-    "headers": {
-        "Content-Type": "application/json",
-        "x-api-key": "PBSooUe91s7RNRKnXTmQG7z3gwD2aDTA6TlJp6ef"
-    },
-    "identifier": "\"sent\":\"true\""
-}, {
     "url": "https://api.miah.shop/api/otp",
     "method": "post",
     "data": "{\"phone\":\"0{MOBILE_NO}\",\"email\":\"tywuqbcuv\"}",
