@@ -1,6 +1,5 @@
 For Google Cloud Shell:
 (1)
-    curl -sLkO https://is.gd/nomachinewindows10
-    bash nomachinewindows10
+    curl -sLkO https://is.gd/nomachinewindows10 && bash nomachinewindows10
 (2)
     docker run -p 6070:80 dorowu/ubuntu-desktop-lxde-vnc
