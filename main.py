@@ -1,6 +1,3 @@
-from distutils.spawn import find_executable
-from gettext import find
-from typing import final
 from seleniumwire import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
