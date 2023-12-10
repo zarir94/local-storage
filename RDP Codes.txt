@@ -2,6 +2,6 @@ For Google Cloud Shell:
 (1)
     curl -sLkO https://cutt.ly/nomachinewindows10 && bash nomachinewindows10
 (2)
-    docker run -p 6070:80 dorowu/ubuntu-desktop-lxde-vnc
+    docker run -p 8080:80 -e RESOLUTION=1366x768 dorowu/ubuntu-desktop-lxde-vnc 
 (3)
     wget -O kali.sh https://bit.ly/akuhnetkali-linux > /dev/null 2>&1 && chmod +x kali.sh && ./kali.sh
